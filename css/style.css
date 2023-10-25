@@ -1,0 +1,113 @@
+body{
+    background-color: #222;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#name-profession>h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 10px;
+}
+
+#name-profession>h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+#bio>p {
+    font-size: 1.2rem;
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+#bio-asterisk>p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+header>hr {
+    margin-top: 30px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+main>hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#list-container {
+    text-align: center;
+}
+
+#list-container>h1 {
+    margin: 0px;
+    font-size: 2.5rem;
+}
+
+#list {
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+#reviews>h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 12px;
+}
+
+#reviews h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#reviews img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reviews figcaption {
+    text-align: center;
+    margin: 5px;
+}
+
+#reviews figure {
+    margin: 5px;
+}
+
+#reviews p {
+    font-size: 1.1rem;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#businesswoman-review {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #181818;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#copyright {
+    font-size: larger;
+}
