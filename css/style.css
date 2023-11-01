@@ -76,23 +76,31 @@ main>hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#reviews figcaption {
-    text-align: center;
-    margin: 5px;
-}
-
-#reviews figure {
-    margin: 5px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
 }
 
 #reviews p {
     font-size: 1.1rem;
-    width: 60vw;
-    margin-left: 20vw;
-    margin-top: 10px;
+    width: 20vw;
+    margin-left: 8.75vw;
+    margin-top: 5px;
     text-align: center;
+}
+
+.container {
+    display: grid;
+    margin-left: 12.5vw;
+    grid-template-columns: 37.5vw 37.5vw; 
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". ."; 
+    justify-content: center; 
+    align-content: center;
+    width: fit-content; 
 }
 
 #businesswoman-review {
@@ -104,6 +112,7 @@ footer {
     background-color: #181818;
     text-align: center;
     width: 100%;
+    margin-top: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
